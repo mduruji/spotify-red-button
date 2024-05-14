@@ -5,7 +5,7 @@ import {useEffect, useState} from "react";
 
 const CLIENT_ID = "432549a885e745e4a6504ddb00195bd7";
 const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize";
-const REDIRECT_URL_AFTER_LOGIN = "http://localhost:3000/app";
+const REDIRECT_URL_AFTER_LOGIN = "https://mduruji.github.io/spotify-red-button/";
 const SPACE_DELIMITER = "%20";
 const SCOPES = [
           "user-read-currently-playing", 
