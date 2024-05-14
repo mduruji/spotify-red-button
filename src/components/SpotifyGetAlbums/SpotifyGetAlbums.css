@@ -1,0 +1,14 @@
+.SpotifyGetAlbums .redButton {
+    color: aliceblue;
+    font-weight: 1000;
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    transition-duration: 0.35s;
+}
+
+.SpotifyGetAlbums .redButton:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
