@@ -42,6 +42,10 @@ function SpotifyGetAlbums() {
             "ids": albumIds,
         },
       })
+      .then(response => {
+        console.log('Albums deleted:', response.data);
+        return response.data;
+      })
       .catch(error => {
           console.error('Error deleting albums:', error);
           throw error;
